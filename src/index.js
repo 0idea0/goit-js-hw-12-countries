@@ -1,2 +1,2 @@
 //import './sass/main.scss';
-import './js/countrySerch.js';
+import './js/countrySearch.js';
