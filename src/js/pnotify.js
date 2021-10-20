@@ -24,5 +24,5 @@ export function onOutputInfo() {
   });
 }
 export function onError() {
-  alert('Данные для поиска страны отстутсву');
+  alert('Данные для поиска страны отстутсвуют');
 }

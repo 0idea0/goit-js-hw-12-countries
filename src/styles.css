@@ -1,13 +1,109 @@
-.country-description {
-  display: flex;
-  justify-content: space-around;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.country-title {
+body {
+  margin: 0;
+  padding: 10px;
+  color: orange;
+  background: bisque;
+}
+
+.countries-list {
+  border: 1px solid #000;
+  width: 300px;
+}
+
+.countries-list__image {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.countries-list__item {
+  font-family: inherit;
+  line-height: 1.5;
+  cursor: pointer;
+  color: violet;
+  list-style-type: disc;
+}
+
+.countries-list__item:hover {
+  color: #000;
+  list-style-type: square;
+}
+
+.card {
+  max-width: 900px;
+}
+
+.wrapper--flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  padding: 1em;
+}
+
+.description {
+  margin-right: 50px;
+}
+
+.card-name {
+  text-align: start;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input {
+  width: 300px;
+  height: 60px;
+
+  padding: 1em;
+  margin-right: 1em;
+
+  font-weight: 700;
+  color: violet;
+  background-color: #fff8dc;
+
+  border: 1px solid dark;
+  border-radius: 10px;
+}
+
+.card-name,
+.text {
+  margin: 0;
+  color: dark;
+}
+
+.text {
+  padding-top: 10px;
+}
+
+.text-wrapper {
+  color: violet;
+}
+
+.text-wrapper.text__timezones {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: violet;
+}
+
+.label {
   text-align: center;
 }
 
-#countryInput {
-  margin-top: 25px;
-  margin-left: 25px;
+.placeholder {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }

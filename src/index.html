@@ -13,9 +13,19 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <input type="text" id='countryInput'>
-    <div class="country-card"></div>
-    <ul id="countryList"></ul>
+    <h1>Сountry information</h1>
+    <div class="label">
+      <label>
+        <input type="text" autocomplete="off" 
+          class="countryInput" name="country" 
+          id="input-name-country"
+          placeholder="Enter country name" value="" />
+      </label>
+    </div>
+    
+    <div class="placeholder">
+      <div class="js-countries"></div>
+    </div>
 
     <script src="./index.js"></script>
   </body>
